@@ -13,5 +13,17 @@ namespace MumblingTests
         {
             Assert.AreEqual("", _mumble.Execute(""));
         }
+
+        [Test]
+        public void ReturnsTheSameCapitalisedString()
+        {
+            Assert.AreEqual("A", _mumble.Execute("A"));
+        }
+        
+        [Test]
+        public void ReturnsACapitalisedString()
+        {
+            Assert.AreEqual("A", _mumble.Execute("a"));
+        }
     }
 }
