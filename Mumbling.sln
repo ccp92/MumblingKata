@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mumbling", "Mumbling\Mumbling.csproj", "{F271CA66-4164-4D5D-B3D9-79F343BA729E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MumblingTests", "MumblingTests\MumblingTests.csproj", "{D3ADA7BD-5D1A-48D5-941B-093E16F2F19A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F271CA66-4164-4D5D-B3D9-79F343BA729E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F271CA66-4164-4D5D-B3D9-79F343BA729E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F271CA66-4164-4D5D-B3D9-79F343BA729E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F271CA66-4164-4D5D-B3D9-79F343BA729E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3ADA7BD-5D1A-48D5-941B-093E16F2F19A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3ADA7BD-5D1A-48D5-941B-093E16F2F19A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3ADA7BD-5D1A-48D5-941B-093E16F2F19A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3ADA7BD-5D1A-48D5-941B-093E16F2F19A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
