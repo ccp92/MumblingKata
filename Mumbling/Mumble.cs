@@ -4,9 +4,9 @@ namespace Mumbling
 {
     public class Mumble
     {
-        public string Execute(string input)
+        public static string Execute(string input)
         {
-            return input;
+            return input.ToUpper();
         }
     }
 }
