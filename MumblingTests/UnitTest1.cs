@@ -1,18 +1,17 @@
+using Microsoft.VisualStudio.TestPlatform.Common.Utilities;
+using Mumbling;
 using NUnit.Framework;
 
-namespace Tests
+namespace MumblingTests
 {
     public class Tests
     {
-        [SetUp]
-        public void Setup()
-        {
-        }
+        private Mumble _mumble = new Mumble();
 
         [Test]
-        public void Test1()
+        public void ReturnsAnEmptyString()
         {
-            Assert.Pass();
+            Assert.AreEqual("", _mumble.Execute(""));
         }
     }
 }
