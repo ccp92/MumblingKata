@@ -6,19 +6,14 @@ namespace Mumbling
     {
         public static string Execute(string input)
         {
-            if (input.Length < 2)
-            {
-                return input.ToUpper();
-            }
-
-            string upperInput = Upper(input);
+            string upperInput = UpperCaseString(input);
 
             string duplicatedInput = Duplicate(upperInput);
 
             return duplicatedInput;
         }
 
-        private static string Upper(string input)
+        private static string UpperCaseString(string input)
         {
             string upperInput = string.Empty;
 

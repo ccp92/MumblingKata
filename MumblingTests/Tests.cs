@@ -50,6 +50,7 @@ namespace MumblingTests
             }
         }
         
+        [TestFixture]
         public class GivenAStringWith3Characters
         {
             [Test]
