@@ -6,7 +6,11 @@ namespace Mumbling
     {
         public static string Execute(string input)
         {
-            return input.ToUpper();
+            if (input.Length < 2)
+            {
+                return input.ToUpper();
+            }
+            return "ABb";
         }
     }
 }

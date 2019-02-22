@@ -31,5 +31,14 @@ namespace MumblingTests
                 Assert.AreEqual("A", Mumble.Execute("a"));
             }  
         }
+
+        public class GivenAStringWith2Characters
+        {
+            [Test]
+            public void ReturnsAMumbledString()
+            {
+                Assert.AreEqual("ABb", Mumble.Execute("ab"));
+            }
+        }
     }
 }
