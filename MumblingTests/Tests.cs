@@ -42,6 +42,27 @@ namespace MumblingTests
             {
                 Assert.AreEqual("ABb", Mumble.Execute("ab"));
             }
+            
+            [Test]
+            public void ReturnsADifferentMumbledString()
+            {
+                Assert.AreEqual("BAa", Mumble.Execute("ba"));
+            }
+        }
+        
+        public class GivenAStringWith3Characters
+        {
+            [Test]
+            public void ReturnsAMumbledString()
+            {
+                Assert.AreEqual("ABbCcc", Mumble.Execute("abc"));
+            }
+            
+            [Test]
+            public void ReturnsADifferentMumbledString()
+            {
+                Assert.AreEqual("BFfGgg", Mumble.Execute("bfg"));
+            }
         }
     }
 }
