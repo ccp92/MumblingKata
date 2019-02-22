@@ -8,6 +8,7 @@ namespace MumblingTests
     {
         private readonly Mumble _mumble = new Mumble();
 
+        [TestFixture]
         public class GivenAnEmptyString
         {
             [Test]
@@ -16,7 +17,8 @@ namespace MumblingTests
                 Assert.AreEqual("", Mumble.Execute(""));
             }
         }
-
+        
+        [TestFixture]
         public class GivenASingleCharacterString
         {
             [Test]
@@ -32,6 +34,7 @@ namespace MumblingTests
             }  
         }
 
+        [TestFixture]
         public class GivenAStringWith2Characters
         {
             [Test]
